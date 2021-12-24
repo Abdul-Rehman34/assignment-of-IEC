@@ -1,0 +1,169 @@
+nav, header, footer {
+    display: block;
+}
+/* body {
+    line-height: 010;
+    margin: 0; */
+}
+
+nav {
+    width: 101%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: rgb(236, 224, 224);
+    overflow: hidden;
+    margin:0px;
+    padding:0px;
+    line-height: 0;
+    list-style: none;
+  
+}
+
+ul.topnav li h2 {
+    float: left;
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 300px;
+    font-size: 30px;
+    
+}
+
+ul.topnav li a{
+    float: right;
+    text-decoration: none;
+    display: block;
+    font-size: 23px;
+    padding: 22px;
+    text-transform: uppercase;
+    color: rgb(59, 58, 58);
+    margin-right: 35px;
+   
+}
+
+ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: #eee;
+    
+}
+
+img {
+    width: 100%;
+    height: 600px;
+    
+}
+/* p {
+    text-align: justify;
+    font-size: 18;
+} */
+h1 {
+    text-align: center;
+    font-size:80px;
+    font-weight: 300;
+    margin:250px;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner img {
+    width:101% ;
+    height:600px;
+   }
+
+div h1 {
+    color: darkslategray;
+    position: absolute;
+    text-shadow: black;
+    top: -14%;
+    text-align:center;
+    right:-12%;
+    width: 100%;
+    font-family: sans-serif;
+    margin-right: 120px;
+   
+}
+
+div p {
+    color: rgb(239, 245, 245);
+    position: absolute;
+    top: 55%;
+    text-align:center;
+    right:-3%;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 36%;
+    margin-right: 28%;
+    
+}
+
+button {
+    color:rgb(255, 250, 250);
+    position: relative;
+    background-color:rgb(12, 12, 12) ;
+    padding: 20px;
+    margin: 30px;
+    margin-left:28%;
+    margin-top: 5%;
+    margin-right:25%;
+
+    border-color: rgb(239, 245, 245);
+   
+}   
+h2 {
+    color: rgb(60, 167, 106);
+    font-size: 30px;
+    text-align: center;
+} 
+
+p {
+    color: rgb(54, 53, 52);
+    font-size: 23px;
+    text-align: center;
+    margin-right:300px;
+    margin-left:300px
+}
+.col-12 {
+    width: 100%;
+}
+.col-4 {
+    width:33.3%;
+    float: left;
+    size: 140px;
+    
+}
+img.srvsimg1    {
+    width: 140px;
+    height: 140px;
+    /* margin:0;
+    padding: 0; */
+    margin-left: 40%;  
+}
+
+img.srvsimg2    {
+    width: 140px;
+    height: 140px;
+    margin:0;
+    padding: 0;
+    margin-left:40%;  
+}
+
+img.srvsimg3   {
+    width: 140px;
+    height: 140px;
+    margin:0;
+    padding: 0;
+    margin-left: 40%;
+}
+
+div {
+    color: rgb(61, 61, 61);
+    font-size: 20px;
+    
+}
+}
